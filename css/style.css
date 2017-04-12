@@ -1,0 +1,48 @@
+/* RESET */
+*{font-family: 'Amatic SC', cursive;}
+body, html {height: 100%}
+
+/* Header with image */
+.menu {display: none}
+
+.bgimg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("pizza.jpg");
+    min-height: 90%;
+}
+
+.pizza-small{font-size:100px;}
+.pizza-large{font-size:60px;}
+
+/* Menu */
+.menu-menu{
+	margin-bottom:64px;
+	font-family: 'Amatic SC', cursive;
+}
+
+.pad{margin-left: 3%;}
+
+/* Sobre */
+.sobre{
+	margin-bottom:64px;
+	font-family: 'Amatic SC', cursive;
+}
+
+.img-res{
+	width: 50%;
+}
+.text-size{
+	font-size: 1.5em;
+}
+.horario{font-family: 'Amatic SC', cursive;}
+
+/* Contato */
+.contato{
+	margin-bottom:64px;
+	font-family: 'Amatic SC', cursive;
+}
+.num{
+	font-size: 1.2em;
+	margin-left: 8%;
+}
