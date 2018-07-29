@@ -1,0 +1,18 @@
+$bg-image-home: url(../img/background.jpg);
+$font-family: 'Amatic SC', cursive;
+
+@mixin background {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: $bg-image-home;
+  min-height: 90%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-family;
+}

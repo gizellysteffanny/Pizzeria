@@ -1,0 +1,28 @@
+{
+  "name": "valenttina",
+  "version": "1.0.0",
+  "description": "Website de Pizzaria, disponibilizando o cardapio e a localização da Pizzaria.",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w sass/ -o dist/css --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gizellysteffanny/Pizzeria.git"
+  },
+  "keywords": [
+    "Pizzaria",
+    "Valenttina's",
+    "Delivery",
+    "Food"
+  ],
+  "author": "Gizelly Steffanny",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gizellysteffanny/Pizzeria/issues"
+  },
+  "homepage": "https://github.com/gizellysteffanny/Pizzeria#readme",
+  "dependencies": {
+    "node-sass": "^4.9.2"
+  }
+}

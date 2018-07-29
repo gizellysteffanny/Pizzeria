@@ -1,0 +1,47 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Amatic SC", cursive; }
+
+* {
+  box-sizing: border-box; }
+
+html, body {
+  height: 100%; }
+
+body {
+  font-family: "Amatic SC", cursive; }
+
+.menu {
+  display: none; }
+
+.bgimg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../img/background.jpg);
+  min-height: 90%; }
+  .bgimg .pizza-small {
+    font-size: 100px; }
+  .bgimg .pizza-large {
+    font-size: 60px; }
+
+#menu .menu-menu {
+  margin-bottom: 64px; }
+
+#Bebidas .pad {
+  margin-left: 3%; }
+
+#about .info-about .about {
+  margin-bottom: 64px; }
+
+#about .info-about .text-size {
+  font-size: 1.5em; }
+
+#contato .contato {
+  margin-bottom: 64px; }
+  #contato .contato .num {
+    font-size: 1.2em;
+    margin-left: 8%; }

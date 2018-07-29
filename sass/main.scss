@@ -1,0 +1,64 @@
+@import 'config';
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: $font-family;
+}
+
+.menu {
+  display: none;
+}
+
+.bgimg {
+  @include background();
+
+  .pizza-small{
+    font-size:100px;
+  }
+
+  .pizza-large{
+    font-size:60px;
+  }
+}
+
+#menu {
+  .menu-menu {
+    margin-bottom:64px;
+  }
+}
+
+#Bebidas {
+  .pad {
+    margin-left: 3%;
+  }
+}
+
+#about {
+  .info-about {
+    .about {
+      margin-bottom:64px;
+    }
+
+    .text-size {
+      font-size: 1.5em;
+    }
+  }
+}
+
+#contato {
+  .contato {
+    margin-bottom:64px;
+
+    .num{
+      font-size: 1.2em;
+      margin-left: 8%;
+    }
+  }
+}
