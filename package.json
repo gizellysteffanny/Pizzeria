@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Website de Pizzaria, disponibilizando o cardapio e a localização da Pizzaria.",
   "main": "index.js",
+  "homepage": "https://gizellysteffanny.github.io/Pizzeria",
   "scripts": {
-    "sass": "node-sass -w sass/ -o dist/css --recursive"
+    "sass": "node-sass -w sass/ -o dist/css --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -21,8 +23,8 @@
   "bugs": {
     "url": "https://github.com/gizellysteffanny/Pizzeria/issues"
   },
-  "homepage": "https://github.com/gizellysteffanny/Pizzeria#readme",
   "dependencies": {
+    "gh-pages": "^1.2.0",
     "node-sass": "^4.9.2"
   }
 }
