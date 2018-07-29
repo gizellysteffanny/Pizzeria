@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Valenttina's Pizzaria Delivery</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="css/main.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+  <!-- Icon -->
+  <link rel="icon" href="img/Pizza-icon.png">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <div class="w3-top w3-hide-small">
+    <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
+      <a href="#" class="w3-bar-item w3-button">HOME</a>
+      <a href="#menu" class="w3-bar-item w3-button">MENU</a>
+      <a href="#about" class="w3-bar-item w3-button">SOBRE</a>
+      <a href="#contato" class="w3-bar-item w3-button">CONTATO</a>
+    </div>
+  </div>
+  <!-- Image -->
+  <header class="bgimg w3-display-container w3-grayscale-min" id="home">
+    <div class="w3-display-bottomleft w3-padding">
+      <span class="w3-tag w3-xlarge">Atendemos de Quinta à Segunda das 16h às 00h</span>
+    </div>
+    <div class="w3-display-middle w3-center">
+      <span class="w3-text-white w3-hide-small pizza-small">Valenttina's
+        <br>Pizzaria Delivery</span>
+      <span class="w3-text-white w3-hide-large w3-hide-medium pizza-large">
+        <b>Valenttina's
+          <br>Pizzaria Delivery</b>
+      </span>
+      <p>
+        <a href="#menu" class="w3-button w3-xxlarge w3-black">Ir para o menu</a>
+      </p>
+    </div>
+  </header>
+
+  <!-- Menu -->
+  <div class="w3-container w3-black w3-padding-64 w3-xxlarge" id="menu">
+    <div class="w3-content">
+
+      <h1 class="w3-center w3-jumbo menu-menu">MENU</h1>
+      <div class="w3-row w3-center w3-border w3-border-dark-grey">
+        <a href="javascript:void(0)" onclick="openMenu(event, 'Pizza');" id="myLink">
+          <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Pizza</div>
+        </a>
+        <a href="javascript:void(0)" onclick="openMenu(event, 'Preco');">
+          <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Preço</div>
+        </a>
+        <a href="javascript:void(0)" onclick="openMenu(event, 'Bebidas');">
+          <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Bebidas</div>
+        </a>
+      </div>
+      <!-- Pizza -->
+      <div id="Pizza" class="w3-container menu w3-padding-32 w3-white">
+        <h1>
+          <b>Calabresa</b>
+        </h1>
+        <p class="w3-text-grey">Molho especial, mussarela, calabresa, cebola, azeitona e orégano.</p>
+        <hr>
+        <br>
+        <h1>
+          <b>Calabria</b>
+        </h1>
+        <p class="w3-text-grey">Molho especial, calabresa moida, milho, cebola, catupiry, azeitona e orégano.</p>
+        <hr>
+        <br>
+        <h1>
+          <b>Lombo</b>
+        </h1>
+        <p class="w3-text-grey">Molho especial, lombo, cebola, catupiry, azeitona e orégano.</p>
+        <hr>
+        <br>
+        <h1>
+          <b>Frango com Catupiry</b>
+        </h1>
+        <p class="w3-text-grey">Molho especial, frango, catupiry, azeitona e orégano.</p>
+        <hr>
+        <br>
+        <h1>
+          <b>Americana</b>
+        </h1>
+        <p class="w3-text-grey">Molho especial, frango, milho, bacon, catupiry, mussarela, cebola, azeitona e orégano.</p>
+        <hr>
+        <br>
+        <h1>
+          <b>Bacon</b>
+        </h1>
+        <p class="w3-text-grey">Molho especial, bacon, cebola, tomate, mussarela, azeitona e orégano.</p>
+        <hr>
+        <br>
+        <h1>
+          <b>Atum</b>
+        </h1>
+        <p class="w3-text-grey">Molho especial, atum, mussarela, cebola, azeitona e orégano.</p>
+        <hr>
+        <br>
+        <h1>
+          <b>Mussarela</b>
+        </h1>
+        <p class="w3-text-grey">Molho especial, mussarela, tomate, azeitona e orégano.</p>
+        <hr>
+        <br>
+        <h1>
+          <b>Marguerita</b>
+        </h1>
+        <p class="w3-text-grey">Molho especial, mussarela, tomate, mangericão fresco azeitona e orégano.</p>
+        <hr>
+        <br>
+        <h1>
+          <b>Portuguesa</b>
+        </h1>
+        <p class="w3-text-grey">Molho especial, mussarela, presunto, milho, ervilha, ovo, tomate, cebola, azeitona e orégano.</p>
+        <hr>
+        <br>
+        <h1>
+          <b>4 Queijos</b>
+        </h1>
+        <p class="w3-text-grey">Molho especial, mussarela, provolone, parmesão, catupiry, azeitona e orégano.</p>
+        <hr>
+        <br>
+        <h1>
+          <b>Mistão</b>
+        </h1>
+        <p class="w3-text-grey">Molho especial, mussarela, presunto, calabresa, frango, tomate, cebola, azeitona e orégano.</p>
+        <hr>
+        <br>
+        <h1>
+          <b>Carne Seca</b>
+        </h1>
+        <p class="w3-text-grey">Molho especial, mussarela, charque, cebola, azeitona e orégano.</p>
+        <hr>
+        <br>
+        <h1>
+          <b>Valenttina</b>
+        </h1>
+        <p class="w3-text-grey">Molho especial, mussarela, calabresa, bacon, presunto, frango, tomate, milho, cebola, azeitona e orégano.</p>
+      </div>
+      <!-- Preços -->
+      <div id="Preco" class="w3-container menu w3-padding-32 w3-white">
+
+        <h1>
+          <b>Brontinho</b>
+          <span class="w3-right w3-tag w3-dark-grey w3-round">R$8,00</span>
+        </h1>
+        <hr>
+        <br>
+        <h1>
+          <b>Pequena</b>
+          <span class="w3-right w3-tag w3-dark-grey w3-round">R$15,00</span>
+        </h1>
+        <hr>
+        <br>
+        <h1>
+          <b>Média</b>
+          <span class="w3-right w3-tag w3-dark-grey w3-round">R$20,00</span>
+        </h1>
+        <hr>
+        <br>
+        <h1>
+          <b>Grande</b>
+          <span class="w3-right w3-tag w3-dark-grey w3-round">R$25,00</span>
+        </h1>
+        <hr>
+        <br>
+        <h1>
+          <b>Gigante</b>
+          <span class="w3-right w3-tag w3-dark-grey w3-round">R$30,00</span>
+        </h1>
+      </div>
+      <!-- Bebidas -->
+      <div id="Bebidas" class="w3-container menu w3-padding-32 w3-white">
+        <h1>
+          <b>Coca-cola</b>
+          <span class="w3-tag w3-grey w3-round pad"> 2 litros</span>
+          <span class="w3-right w3-tag w3-dark-grey w3-round">R$7.50</span>
+        </h1>
+        <hr>
+        <br>
+        <h1>
+          <b>Sprite</b>
+          <span class="w3-tag w3-grey w3-round pad"> 2 litros</span>
+          <span class="w3-right w3-tag w3-dark-grey w3-round">R$7.00</span>
+        </h1>
+        <hr>
+        <br>
+        <h1>
+          <b>Fanta</b>
+          <span class="w3-tag w3-grey w3-round pad"> 2 litros</span>
+          <span class="w3-right w3-tag w3-dark-grey w3-round">R$7.00</span>
+        </h1>
+        <hr>
+        <br>
+        <h1>
+          <b>Antarctica</b>
+          <span class="w3-tag w3-grey w3-round pad"> 2 litros</span>
+          <span class="w3-right w3-tag w3-dark-grey w3-round">R$5.00</span>
+        </h1>
+        <hr>
+        <br>
+        <h1>
+          <b>H2O</b>
+          <span class="w3-tag w3-grey w3-round pad"> 500 ml</span>
+          <span class="w3-right w3-tag w3-dark-grey w3-round">R$4.00</span>
+        </h1>
+        <hr>
+        <br>
+        <h1>
+          <b>Skol</b>
+          <span class="w3-tag w3-grey w3-round pad"> 600 ml</span>
+          <span class="w3-right w3-tag w3-dark-grey w3-round">R$6.50</span>
+        </h1>
+        <hr>
+        <br>
+        <h1>
+          <b>Itaipava</b>
+          <span class="w3-tag w3-grey w3-round pad"> 600 ml</span>
+          <span class="w3-right w3-tag w3-dark-grey w3-round">R$6.00</span>
+        </h1>
+        <hr>
+        <br>
+      </div>
+      <br>
+    </div>
+  </div>
+
+  <!-- Sobre -->
+  <div class="w3-container w3-padding-64 w3-red  w3-xlarge" id="about">
+    <div class="w3-content info-about">
+      <h1 class="w3-center w3-jumbo sobre">Sobre</h1>
+      <p>Desde 2014, Trabalhando com qualidade, pensando sempre na satisfação dos nossos clientes amigos, Seguindo a Tradição
+        como a melhor Pizzaria na COHAB I, Localizada na rua Dom Expedito Lopes, 37 - COHAB I, fazendo parte do coração desse
+        bairro incrível. Ótima escolha para quem almeja estar em um ambiente tradicional e familiar, saboreando deliciosas
+        pizzas e também degustando nossos selecionados vinhos. Venham conhecer o melhor balcão de Pizzas de Palmares, é sempre
+        um prazer receber à todos aqui na Valenttina's Pizzaria Delivery.</p>
+      <p class="text-size">O Chef? Mr. Iago Leão</p>
+      <img src="img/chef.jpg" class="w3-round w3-image img-res" alt="Chef">
+      <br>
+      <br>
+      <p class="text-size">Local de trabalho:</p>
+      <img src="img/restaurant.jpg" class="w3-round w3-margin-top w3-margin-bottom  w3-image" alt="Restaurant">
+      <h1 class="horario">Horário de funcionamento</h1>
+      <div class="w3-row">
+        <div class="w3-col s6">
+          <p>Terça-feira 16:00 às 00:00</p>
+          <p>Quarta-feira 16:00 às 00:00</p>
+          <p>Quinta-feira 16:00 às 00:00</p>
+        </div>
+        <div class="w3-col s6">
+          <p>Sexta-feira 16:00 às 00:00</p>
+          <p>Sabádo 16:00 às 00:00</p>
+          <p>Domingo 16:00 às 00:00</p>
+          <p>Segunda Fechado</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Google maps -->
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15776.19150197808!2d-35.5995338!3d-8.6869974!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcef94e471e55c284!2sValenttina&#39;s+Pizzaria+Delivery!5e0!3m2!1spt-BR!2sbr!4v1492014701130"
+    width="100%" height="400px" frameborder="0" style="border:0" allowfullscreen></iframe>
+  <!-- Contato -->
+  <div class="w3-container w3-padding-64 w3-grey  w3-xlarge" id="contato">
+    <div class="w3-content">
+      <h1 class="w3-center w3-jumbo contato">Contato</h1>
+      <p class="w3-xxlarge">Ligue-nos para:</p>
+      <p class="num">81 9 8439-5283</p>
+      <p class="num">81 9 9852-5272</p>
+      <p class="num">81 9 8988-9530</p>
+      <p class="w3-xxlarge">Entre em contato</p>
+      <form action="/action_page.php" target="_blank">
+        <p>
+          <input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Nome" required name="Name">
+        </p>
+        <p>
+          <input class="w3-input w3-padding-16 w3-border" type="email" placeholder="Email" required name="People">
+        </p>
+        <p>
+          <input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Mensagem" required name="Message">
+        </p>
+        <p>
+          <button class="w3-button w3-black w3-block" type="submit">Enviar Mensagem</button>
+        </p>
+      </form>
+    </div>
+  </div>
+  <!-- Footer -->
+  <footer class="w3-center w3-black w3-padding-48 w3-xxlarge">
+    <p>&copy; 2017 Valenttina's Pizzaria Delivery</p>
+  </footer>
+  <!-- JS -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
